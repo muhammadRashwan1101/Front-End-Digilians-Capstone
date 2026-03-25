@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.swiper-pagination {
+  top: 10px;
+  bottom: auto;
+}
