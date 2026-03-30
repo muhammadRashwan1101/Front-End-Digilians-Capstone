@@ -1,0 +1,1753 @@
+{
+  "store": {
+    "name": "RAVIN",
+    "tagline": "Unveil Your Style, Elevate Every Day",
+    "currency": "EGP",
+    "currency_symbol": "ج.م",
+    "logo_url": "https://shop.iravin.com/cdn/shop/files/ravin_logo_black_005f4b08-3420-459e-84c0-28f047143a2d.png",
+    "social_links": {
+      "facebook": "https://www.facebook.com/ravinjeans",
+      "instagram": "https://www.instagram.com/ravinjeans"
+    },
+    "free_shipping_threshold": 2000,
+    "announcement_bar": "Free Shipping on Orders Over 2000 EGP | 45% OFF on all products",
+    "payment_methods": [
+      "Apple Pay",
+      "Mastercard",
+      "Visa"
+    ],
+    "store_locations": [
+      "Cairo – Maadi",
+      "Cairo – Nasr City",
+      "Alexandria – Sidi Gaber",
+      "Giza – 6th of October"
+    ]
+  },
+  "categories": [
+    {
+      "id": "cat-001",
+      "slug": "men",
+      "name": "Men",
+      "gender": "men",
+      "image_url": "https://shop.iravin.com/cdn/shop/files/men-all_e4370406-e08a-4c8a-9374-883bfa50ad0f.jpg?v=1770732584&width=800",
+      "subcategories": [
+        {
+          "id": "sub-001",
+          "slug": "men-t-shirts",
+          "name": "T-Shirts",
+          "parent_id": "cat-001",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/men-tshirt_c0d5bbdd-1d78-49d6-8955-db89a5c52d7d.jpg?v=1771332969&width=800"
+        },
+        {
+          "id": "sub-002",
+          "slug": "men-polo",
+          "name": "Polo",
+          "parent_id": "cat-001",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/men-plolo.jpg?v=1771333234&width=800"
+        },
+        {
+          "id": "sub-003",
+          "slug": "men-long-sleeve",
+          "name": "Long Sleeve",
+          "parent_id": "cat-001",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/long-sleev-tshirt.jpg?v=1770809550&width=800"
+        },
+        {
+          "id": "sub-004",
+          "slug": "men-tank-top",
+          "name": "Tank Top",
+          "parent_id": "cat-001",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/r207263a_c860922f-be31-47b1-9d90-b7eafcd01edb.jpg?v=1774097917&width=800"
+        },
+        {
+          "id": "sub-005",
+          "slug": "men-shirts",
+          "name": "Shirts",
+          "parent_id": "cat-001",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/men-shirt_30c68114-39f0-469c-bdba-bdcb81e95827.jpg?v=1771331587&width=800"
+        },
+        {
+          "id": "sub-006",
+          "slug": "men-jeans-pants",
+          "name": "Jeans & Pants",
+          "parent_id": "cat-001",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/men-jeans_80e8d70b-190f-49fe-a85f-c790313d0486.jpg?v=1771333596&width=800"
+        },
+        {
+          "id": "sub-007",
+          "slug": "men-shorts",
+          "name": "Shorts",
+          "parent_id": "cat-001",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/men-shorts_894e7a4d-7ae9-48e2-a6f9-5744f2279dc2.jpg?v=1771334793&width=800"
+        },
+        {
+          "id": "sub-008",
+          "slug": "men-board-shorts",
+          "name": "Board Shorts",
+          "parent_id": "cat-001",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/men-board-shorts.jpg?v=1771335038&width=800"
+        },
+        {
+          "id": "sub-009",
+          "slug": "men-sweatshirts-hoodies",
+          "name": "Sweatshirts & Hoodies",
+          "parent_id": "cat-001",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/men-swetashirt-ravin-egypt.jpg?v=1770810463&width=800"
+        },
+        {
+          "id": "sub-010",
+          "slug": "men-coats-jackets",
+          "name": "Coats & Jackets",
+          "parent_id": "cat-001",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/men-jacket-banner.jpg?v=1771331126&width=800"
+        },
+        {
+          "id": "sub-011",
+          "slug": "men-waistcoat-vests",
+          "name": "Waistcoat & Vests",
+          "parent_id": "cat-001",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/men-jacket-banner.jpg?v=1771331126&width=800"
+        },
+        {
+          "id": "sub-012",
+          "slug": "men-pullovers",
+          "name": "Pullovers",
+          "parent_id": "cat-001",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/male-pullover-ravin-egypt.jpg?v=1770809576&width=800"
+        },
+        {
+          "id": "sub-013",
+          "slug": "men-footwear",
+          "name": "Footwear",
+          "parent_id": "cat-001",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/men-footwear_e789357b-1ad8-4b3c-a6b2-dd51097d5960.jpg?v=1771335595&width=800"
+        },
+        {
+          "id": "sub-014",
+          "slug": "men-bags",
+          "name": "Bags",
+          "parent_id": "cat-001",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/men-Accessories_a5bb0524-8096-475f-b880-cb316a68872a.jpg?v=1771335926&width=800"
+        },
+        {
+          "id": "sub-015",
+          "slug": "men-wallets",
+          "name": "Wallets",
+          "parent_id": "cat-001",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/men-Accessories_a5bb0524-8096-475f-b880-cb316a68872a.jpg?v=1771335926&width=800"
+        },
+        {
+          "id": "sub-016",
+          "slug": "men-belts",
+          "name": "Belts",
+          "parent_id": "cat-001",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/men-Accessories_a5bb0524-8096-475f-b880-cb316a68872a.jpg?v=1771335926&width=800"
+        },
+        {
+          "id": "sub-017",
+          "slug": "men-caps-hats",
+          "name": "Caps and Hats",
+          "parent_id": "cat-001",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/men-Accessories_a5bb0524-8096-475f-b880-cb316a68872a.jpg?v=1771335926&width=800"
+        },
+        {
+          "id": "sub-018",
+          "slug": "men-scarves",
+          "name": "Scarves & Snoods",
+          "parent_id": "cat-001",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/men-Accessories_a5bb0524-8096-475f-b880-cb316a68872a.jpg?v=1771335926&width=800"
+        },
+        {
+          "id": "sub-019",
+          "slug": "men-socks",
+          "name": "Socks",
+          "parent_id": "cat-001",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/men-Accessories_a5bb0524-8096-475f-b880-cb316a68872a.jpg?v=1771335926&width=800"
+        },
+        {
+          "id": "sub-020",
+          "slug": "men-underwear",
+          "name": "Underwear",
+          "parent_id": "cat-001",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/men-Accessories_a5bb0524-8096-475f-b880-cb316a68872a.jpg?v=1771335926&width=800"
+        }
+      ]
+    },
+    {
+      "id": "cat-002",
+      "slug": "women",
+      "name": "Women",
+      "gender": "women",
+      "image_url": "https://shop.iravin.com/cdn/shop/files/Ravin_women_all_2389ec78-2ef4-4991-85a9-910a7f93897e.jpg?v=1771393934&width=800",
+      "subcategories": [
+        {
+          "id": "sub-021",
+          "slug": "women-t-shirts",
+          "name": "T-Shirts",
+          "parent_id": "cat-002",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/Ravin_women_tshirts.jpg?v=1771394651&width=800"
+        },
+        {
+          "id": "sub-022",
+          "slug": "women-shirts-blouses",
+          "name": "Shirts and Blouses",
+          "parent_id": "cat-002",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/women-shirts-ravin-egypt.jpg?v=1771357036&width=800"
+        },
+        {
+          "id": "sub-023",
+          "slug": "women-tops",
+          "name": "Tops",
+          "parent_id": "cat-002",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/women-shirts-ravin-egypt.jpg?v=1771357036&width=800"
+        },
+        {
+          "id": "sub-024",
+          "slug": "women-dresses",
+          "name": "Dresses",
+          "parent_id": "cat-002",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/women--dress-ravin-egypt.jpg?v=1771362976&width=800"
+        },
+        {
+          "id": "sub-025",
+          "slug": "women-kimonos-cardigans",
+          "name": "Kimonos & Cardigans",
+          "parent_id": "cat-002",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/women-kimono-ravin-egypt.jpg?v=1771356878&width=800"
+        },
+        {
+          "id": "sub-026",
+          "slug": "women-jumpsuits-rompers",
+          "name": "Jumpsuits & Rompers",
+          "parent_id": "cat-002",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/women-jumpsuits-ravin-egypt.jpg?v=1771362879&width=800"
+        },
+        {
+          "id": "sub-027",
+          "slug": "women-jeans-pants",
+          "name": "Jeans & Pants",
+          "parent_id": "cat-002",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/women-pants-ravin-egypt.jpg?v=1771362271&width=800"
+        },
+        {
+          "id": "sub-028",
+          "slug": "women-skirts",
+          "name": "Skirts",
+          "parent_id": "cat-002",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/women--skirts-ravin-egypt.jpg?v=1771363602&width=800"
+        },
+        {
+          "id": "sub-029",
+          "slug": "women-shorts",
+          "name": "Shorts",
+          "parent_id": "cat-002",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/women-shorts-ravin-egypt.jpg?v=1771362380&width=800"
+        },
+        {
+          "id": "sub-030",
+          "slug": "women-sweatshirts-hoodies",
+          "name": "Sweatshirts & Hoodies",
+          "parent_id": "cat-002",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/women-swetashirt-ravin-egypt.jpg?v=1771356654&width=800"
+        },
+        {
+          "id": "sub-031",
+          "slug": "women-coats-jackets",
+          "name": "Coats & Jackets",
+          "parent_id": "cat-002",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/women-jacket-banner.jpg?v=1771356430&width=800"
+        },
+        {
+          "id": "sub-032",
+          "slug": "women-pullovers",
+          "name": "Pullovers",
+          "parent_id": "cat-002",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/women-pullover-ravin-egypt.jpg?v=1771356736&width=800"
+        },
+        {
+          "id": "sub-033",
+          "slug": "women-footwear",
+          "name": "Footwear",
+          "parent_id": "cat-002",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/wommen-footwear.jpg?v=1771393818&width=800"
+        },
+        {
+          "id": "sub-034",
+          "slug": "women-bags",
+          "name": "Bags",
+          "parent_id": "cat-002",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/women-Accessories.jpg?v=1771393786&width=800"
+        },
+        {
+          "id": "sub-035",
+          "slug": "women-wallets",
+          "name": "Wallets",
+          "parent_id": "cat-002",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/women-Accessories.jpg?v=1771393786&width=800"
+        },
+        {
+          "id": "sub-036",
+          "slug": "women-scarves",
+          "name": "Scarves",
+          "parent_id": "cat-002",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/women-Accessories.jpg?v=1771393786&width=800"
+        },
+        {
+          "id": "sub-037",
+          "slug": "women-socks",
+          "name": "Socks",
+          "parent_id": "cat-002",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/women-Accessories.jpg?v=1771393786&width=800"
+        }
+      ]
+    },
+    {
+      "id": "cat-003",
+      "slug": "clearance",
+      "name": "Clearance",
+      "gender": "unisex",
+      "subcategories": [
+        {
+          "id": "sub-038",
+          "slug": "men-clearance",
+          "name": "Men Clothing Sale",
+          "parent_id": "cat-003",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/O199924-outlet_6b3bf1bc-9a8a-4e69-ab99-eb4abd9e5f04.jpg?v=1770732183&width=800"
+        },
+        {
+          "id": "sub-039",
+          "slug": "women-clearance",
+          "name": "Women Clothing Sale",
+          "parent_id": "cat-003",
+          "image_url": "https://shop.iravin.com/cdn/shop/files/Ravin_women_Outlet.jpg?v=1771354850&width=800"
+        }
+      ],
+      "image_url": "https://shop.iravin.com/cdn/shop/files/O199924-outlet_6b3bf1bc-9a8a-4e69-ab99-eb4abd9e5f04.jpg?v=1770732183&width=800"
+    }
+  ],
+  "products": [ 
+    {
+      "id": "prod-001",
+      "sku": "R217174",
+      "slug": "r217174-s24m020-d-green-mls",
+      "name": "Long Sleeve Casual Shirt - Dark Green",
+      "short_description": "Relaxed-fit long sleeve casual shirt in a rich dark green tone.",
+      "description": "A versatile everyday shirt crafted for comfort and style. Features a button-down collar, relaxed regular fit, and soft breathable fabric perfect for casual outings.",
+      "category_id": "cat-001",
+      "subcategory_id": "sub-003",
+      "gender": "men",
+      "type": "Long Sleeve",
+      "tags": [
+        "new",
+        "casual",
+        "long-sleeve",
+        "men"
+      ],
+      "is_new": true,
+      "is_bestseller": false,
+      "is_on_sale": true,
+      "is_featured": true,
+      "rating": 4.3,
+      "review_count": 18,
+      "price_original": 1299.99,
+      "price_sale": 714.99,
+      "discount_percent": 45,
+      "currency": "EGP",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colors": [
+        {
+          "name": "Dark Green",
+          "hex": "#2D5A27",
+          "is_default": true
+        }
+      ],
+      "images": [
+        "https://shop.iravin.com/cdn/shop/files/r217174a.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r217174b.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r217174d.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r217174e.jpg"
+      ],
+      "thumbnail": "https://shop.iravin.com/cdn/shop/files/r217174a.jpg",
+      "stock_quantity": 85,
+      "in_stock": true,
+      "created_at": "2025-10-01",
+      "collection": "Just In",
+      "subcategories": [
+        "sub-003",
+        "sub-005"
+      ]
+    },
+    {
+      "id": "prod-002",
+      "sku": "O202119",
+      "slug": "o202119-s24m020-black-mls",
+      "name": "Long Sleeve Casual Shirt - Black",
+      "short_description": "Clean and modern long sleeve shirt in classic black.",
+      "description": "A versatile everyday shirt in timeless black. Button-down front, relaxed regular fit, and soft breathable fabric suitable for casual and semi-formal occasions.",
+      "category_id": "cat-001",
+      "subcategory_id": "sub-003",
+      "gender": "men",
+      "type": "Long Sleeve",
+      "tags": [
+        "new",
+        "casual",
+        "long-sleeve",
+        "men",
+        "black"
+      ],
+      "is_new": true,
+      "is_bestseller": false,
+      "is_on_sale": true,
+      "is_featured": true,
+      "rating": 4.5,
+      "review_count": 22,
+      "price_original": 1299.99,
+      "price_sale": 714.99,
+      "discount_percent": 45,
+      "currency": "EGP",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#000000",
+          "is_default": true
+        }
+      ],
+      "images": [
+        "https://shop.iravin.com/cdn/shop/files/o202119a.jpg",
+        "https://shop.iravin.com/cdn/shop/files/o202119b.jpg",
+        "https://shop.iravin.com/cdn/shop/files/o202119d.jpg",
+        "https://shop.iravin.com/cdn/shop/files/o202119e.jpg"
+      ],
+      "thumbnail": "https://shop.iravin.com/cdn/shop/files/o202119a.jpg",
+      "stock_quantity": 60,
+      "in_stock": true,
+      "created_at": "2025-10-02",
+      "collection": "Just In",
+      "subcategories": [
+        "sub-003",
+        "sub-005"
+      ]
+    },
+    {
+      "id": "prod-003",
+      "sku": "R215015",
+      "slug": "r215015-plaid-winter-shirt-light-grey-navy-blue",
+      "name": "Plaid Winter Shirt with Front Pocket - Light Grey & Navy Blue",
+      "short_description": "Cozy plaid winter shirt with a practical front chest pocket.",
+      "description": "Stay warm in style with this plaid winter shirt featuring a light grey and navy blue pattern. Includes a front chest pocket, button-down collar, and a relaxed fit for everyday comfort.",
+      "category_id": "cat-001",
+      "subcategory_id": "sub-005",
+      "gender": "men",
+      "type": "Shirts",
+      "tags": [
+        "winter",
+        "plaid",
+        "long-sleeve",
+        "men"
+      ],
+      "is_new": false,
+      "is_bestseller": true,
+      "is_on_sale": true,
+      "is_featured": false,
+      "rating": 4.6,
+      "review_count": 34,
+      "price_original": 799.99,
+      "price_sale": 439.99,
+      "discount_percent": 45,
+      "currency": "EGP",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        {
+          "name": "Light Grey & Navy Blue",
+          "hex": "#B0B8C1",
+          "is_default": true
+        }
+      ],
+      "images": [
+        "https://shop.iravin.com/cdn/shop/files/r215015a.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r215015b.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r215015d.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r215015e.jpg"
+      ],
+      "thumbnail": "https://shop.iravin.com/cdn/shop/files/r215015a.jpg",
+      "stock_quantity": 120,
+      "in_stock": true,
+      "created_at": "2025-09-15",
+      "collection": "Winter Collections",
+      "subcategories": [
+        "sub-005"
+      ]
+    },
+    {
+      "id": "prod-004",
+      "sku": "R215014",
+      "slug": "r215014-plaid-winter-shirt-light-grey-beige",
+      "name": "Plaid Winter Shirt with Front Pocket - Light Grey & Beige",
+      "short_description": "Warm plaid shirt in a soft light grey and beige tone.",
+      "description": "A cozy plaid winter shirt blending light grey and beige. Perfect for layering in colder months with a front chest pocket and comfortable regular fit.",
+      "category_id": "cat-001",
+      "subcategory_id": "sub-005",
+      "gender": "men",
+      "type": "Shirts",
+      "tags": [
+        "winter",
+        "plaid",
+        "long-sleeve",
+        "men",
+        "beige"
+      ],
+      "is_new": false,
+      "is_bestseller": true,
+      "is_on_sale": true,
+      "is_featured": false,
+      "rating": 4.4,
+      "review_count": 29,
+      "price_original": 999.99,
+      "price_sale": 439.99,
+      "discount_percent": 56,
+      "currency": "EGP",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        {
+          "name": "Light Grey & Beige",
+          "hex": "#D4C5B0",
+          "is_default": true
+        }
+      ],
+      "images": [
+        "https://shop.iravin.com/cdn/shop/files/r215014a_6af20641-5220-4e38-afd5-c6d0a8264968.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r215014b_b8959222-b96f-4460-bf0d-af20f812b81f.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r215014c.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r215014d_7e6d4d3e-3e97-47c7-a357-03abc489c4bb.jpg"
+      ],
+      "thumbnail": "https://shop.iravin.com/cdn/shop/files/r215014a_6af20641-5220-4e38-afd5-c6d0a8264968.jpg",
+      "stock_quantity": 90,
+      "in_stock": true,
+      "created_at": "2025-09-12",
+      "collection": "Winter Collections",
+      "subcategories": [
+        "sub-005"
+      ]
+    },
+    {
+      "id": "prod-005",
+      "sku": "R215013",
+      "slug": "r215013-plaid-winter-shirt-beige-black",
+      "name": "Plaid Winter Shirt with Front Pocket - Beige & Black",
+      "short_description": "Bold beige and black plaid shirt with front pocket for winter.",
+      "description": "A sharp winter plaid shirt in a contrasting beige and black pattern. Features a front pocket and a regular fit, ideal for casual layering in colder weather.",
+      "category_id": "cat-001",
+      "subcategory_id": "sub-005",
+      "gender": "men",
+      "type": "Shirts",
+      "tags": [
+        "winter",
+        "plaid",
+        "long-sleeve",
+        "men"
+      ],
+      "is_new": false,
+      "is_bestseller": true,
+      "is_on_sale": true,
+      "is_featured": false,
+      "rating": 4.7,
+      "review_count": 41,
+      "price_original": 999.99,
+      "price_sale": 439.99,
+      "discount_percent": 56,
+      "currency": "EGP",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colors": [
+        {
+          "name": "Beige & Black",
+          "hex": "#C2A882",
+          "is_default": true
+        }
+      ],
+      "images": [
+        "https://shop.iravin.com/cdn/shop/files/r215013a_6a99aeb8-8dfa-44d5-98ca-4af84a4e4ad1.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r215013b_fa0cfdfd-3f26-43f1-a359-2866a675344b.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r215013c.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r215013d_22c2af12-78e8-4aae-8521-6f31da3fef04.jpg"
+      ],
+      "thumbnail": "https://shop.iravin.com/cdn/shop/files/r215013a_6a99aeb8-8dfa-44d5-98ca-4af84a4e4ad1.jpg",
+      "stock_quantity": 75,
+      "in_stock": true,
+      "created_at": "2025-09-10",
+      "collection": "Winter Collections",
+      "subcategories": [
+        "sub-005"
+      ]
+    },
+    {
+      "id": "prod-006",
+      "sku": "R214899",
+      "slug": "r214899-casual-long-sleeve-ribbed-shirt-beige",
+      "name": "Casual Long Sleeve Ribbed Shirt - Beige",
+      "short_description": "Textured ribbed long sleeve shirt in a warm beige shade.",
+      "description": "A casual ribbed-texture long sleeve shirt in a soft beige color. The relaxed fit and ribbed fabric make it comfortable for all-day wear, layering perfectly over tees or under jackets.",
+      "category_id": "cat-001",
+      "subcategory_id": "sub-003",
+      "gender": "men",
+      "type": "Long Sleeve",
+      "tags": [
+        "casual",
+        "ribbed",
+        "long-sleeve",
+        "men",
+        "beige"
+      ],
+      "is_new": false,
+      "is_bestseller": false,
+      "is_on_sale": true,
+      "is_featured": false,
+      "rating": 4.2,
+      "review_count": 15,
+      "price_original": 1199.99,
+      "price_sale": 483.99,
+      "discount_percent": 60,
+      "currency": "EGP",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        {
+          "name": "Beige",
+          "hex": "#E8D9C0",
+          "is_default": true
+        }
+      ],
+      "images": [
+        "https://shop.iravin.com/cdn/shop/files/a_6f952d5a-b991-4c1a-87bf-68974a80dbfc.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r214899b_b6dafa31-e459-4202-b622-5241041a6e23.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r214899c.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r214899d_832726d6-95b7-4d61-8b3a-6c50ee0c14e6.jpg"
+      ],
+      "thumbnail": "https://shop.iravin.com/cdn/shop/files/a_6f952d5a-b991-4c1a-87bf-68974a80dbfc.jpg",
+      "stock_quantity": 50,
+      "in_stock": true,
+      "created_at": "2025-08-20",
+      "collection": "Best Seller",
+      "subcategories": [
+        "sub-003"
+      ]
+    },
+    {
+      "id": "prod-007",
+      "sku": "R215012",
+      "slug": "r215012-regular-fit-buttoned-plaid-shirt-beige-black",
+      "name": "Regular Fit Buttoned Plaid Shirt - Beige & Black",
+      "short_description": "Classic buttoned plaid shirt in a beige and black combination.",
+      "description": "A timeless regular fit plaid shirt with full button-down front, in a handsome beige and black pattern. Suitable for casual and smart-casual looks.",
+      "category_id": "cat-001",
+      "subcategory_id": "sub-005",
+      "gender": "men",
+      "type": "Shirts",
+      "tags": [
+        "plaid",
+        "casual",
+        "long-sleeve",
+        "men"
+      ],
+      "is_new": false,
+      "is_bestseller": true,
+      "is_on_sale": true,
+      "is_featured": true,
+      "rating": 4.5,
+      "review_count": 27,
+      "price_original": 999.99,
+      "price_sale": 549.99,
+      "discount_percent": 45,
+      "currency": "EGP",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colors": [
+        {
+          "name": "Beige & Black",
+          "hex": "#C2A882",
+          "is_default": true
+        }
+      ],
+      "images": [
+        "https://shop.iravin.com/cdn/shop/files/r215012a_61773f3d-1891-4490-92df-a48e352821d7.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r215012b_9f058de2-82da-4755-a701-0cf64aaf109f.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r215012c.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r215012d_f5eee27e-1ec8-4aca-bf07-7e3ca9f517db.jpg"
+      ],
+      "thumbnail": "https://shop.iravin.com/cdn/shop/files/r215012a_61773f3d-1891-4490-92df-a48e352821d7.jpg",
+      "stock_quantity": 100,
+      "in_stock": true,
+      "created_at": "2025-09-05",
+      "collection": "Best Seller",
+      "subcategories": [
+        "sub-005"
+      ]
+    },
+    {
+      "id": "prod-008",
+      "sku": "R215011",
+      "slug": "r215011-checkered-casual-shirt-brown-black-white",
+      "name": "Long Sleeves Checkered Casual Shirt - Brown, Black & White",
+      "short_description": "A stylish three-tone checkered casual shirt for a bold look.",
+      "description": "Make a statement with this long sleeve checkered casual shirt combining brown, black, and white. A modern casual look for everyday wear with a comfortable fit.",
+      "category_id": "cat-001",
+      "subcategory_id": "sub-005",
+      "gender": "men",
+      "type": "Shirts",
+      "tags": [
+        "checkered",
+        "casual",
+        "long-sleeve",
+        "men"
+      ],
+      "is_new": false,
+      "is_bestseller": true,
+      "is_on_sale": true,
+      "is_featured": false,
+      "rating": 4.4,
+      "review_count": 31,
+      "price_original": 999.99,
+      "price_sale": 439.99,
+      "discount_percent": 56,
+      "currency": "EGP",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        {
+          "name": "Brown, Black & White",
+          "hex": "#7B5B3A",
+          "is_default": true
+        }
+      ],
+      "images": [
+        "https://shop.iravin.com/cdn/shop/files/r215011a_238adefb-c39a-480d-9f30-ca163c05d647.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r215011b_9609a046-87ec-4aa0-b96a-812e4ce84619.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r215011c.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r215011d_b9551c02-cd0c-47f4-876c-d1757dbfd767.jpg"
+      ],
+      "thumbnail": "https://shop.iravin.com/cdn/shop/files/r215011a_238adefb-c39a-480d-9f30-ca163c05d647.jpg",
+      "stock_quantity": 65,
+      "in_stock": true,
+      "created_at": "2025-09-03",
+      "collection": "Best Seller",
+      "subcategories": [
+        "sub-005"
+      ]
+    },
+    {
+      "id": "prod-009",
+      "sku": "R215010",
+      "slug": "r215010-black-white-checkered-casual-shirt",
+      "name": "Black & White Checkered Casual Shirt",
+      "short_description": "Crisp monochrome checkered casual shirt for a clean look.",
+      "description": "A classic black and white checkered casual shirt with a clean, crisp aesthetic. Regular fit and long sleeves make it a versatile wardrobe staple.",
+      "category_id": "cat-001",
+      "subcategory_id": "sub-005",
+      "gender": "men",
+      "type": "Shirts",
+      "tags": [
+        "checkered",
+        "casual",
+        "long-sleeve",
+        "men"
+      ],
+      "is_new": false,
+      "is_bestseller": false,
+      "is_on_sale": true,
+      "is_featured": false,
+      "rating": 4.1,
+      "review_count": 19,
+      "price_original": 999.99,
+      "price_sale": 439.99,
+      "discount_percent": 56,
+      "currency": "EGP",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colors": [
+        {
+          "name": "Black & White",
+          "hex": "#2C2C2C",
+          "is_default": true
+        }
+      ],
+      "images": [
+        "https://shop.iravin.com/cdn/shop/files/r215010a.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r215010b.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r215010c.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r215010d.jpg"
+      ],
+      "thumbnail": "https://shop.iravin.com/cdn/shop/files/r215010a.jpg",
+      "stock_quantity": 40,
+      "in_stock": true,
+      "created_at": "2025-09-01",
+      "collection": "Best Seller",
+      "subcategories": [
+        "sub-005"
+      ]
+    },
+    {
+      "id": "prod-010",
+      "sku": "R214900",
+      "slug": "r214900-casual-long-sleeve-corduroy-shirt-dark-khaki",
+      "name": "Long Sleeve Casual Corduroy Winter Shirt - Dark Khaki",
+      "short_description": "Textured corduroy winter shirt in a rich dark khaki shade.",
+      "description": "Premium corduroy texture meets winter warmth in this dark khaki long sleeve shirt. A relaxed fit with subtle texture for a sophisticated casual style.",
+      "category_id": "cat-001",
+      "subcategory_id": "sub-010",
+      "gender": "men",
+      "type": "Coats & Jackets",
+      "tags": [
+        "winter",
+        "corduroy",
+        "long-sleeve",
+        "men"
+      ],
+      "is_new": false,
+      "is_bestseller": false,
+      "is_on_sale": true,
+      "is_featured": false,
+      "rating": 4.3,
+      "review_count": 12,
+      "price_original": 1199.99,
+      "price_sale": 659.99,
+      "discount_percent": 45,
+      "currency": "EGP",
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        {
+          "name": "Dark Khaki",
+          "hex": "#5C5033",
+          "is_default": true
+        }
+      ],
+      "images": [
+        "https://shop.iravin.com/cdn/shop/files/r214900a_85424dfb-df0e-4f81-b6b8-7297eb597697.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r214900b_c63fb225-d2dd-4aa5-ac06-0b816d1408cf.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r214900c.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r214900c_eaeb8ed0-2034-4d5c-94ce-d4763db353a2.jpg"
+      ],
+      "thumbnail": "https://shop.iravin.com/cdn/shop/files/r214900a_85424dfb-df0e-4f81-b6b8-7297eb597697.jpg",
+      "stock_quantity": 30,
+      "in_stock": true,
+      "created_at": "2025-08-25",
+      "collection": "Winter Collections",
+      "subcategories": [
+        "sub-010",
+        "sub-005"
+      ]
+    },
+    {
+      "id": "prod-011",
+      "sku": "R214898",
+      "slug": "r214898-suede-long-sleeve-shirt-front-pockets-black",
+      "name": "Suede Long Sleeve Shirt with Front Pockets - Black",
+      "short_description": "Stylish suede finish shirt with dual front pockets in black.",
+      "description": "A premium suede-textured long sleeve shirt in classic black with dual front pockets. Elevate your casual wardrobe with this sophisticated design.",
+      "category_id": "cat-001",
+      "subcategory_id": "sub-003",
+      "gender": "men",
+      "type": "Long Sleeve",
+      "tags": [
+        "suede",
+        "casual",
+        "long-sleeve",
+        "men",
+        "black"
+      ],
+      "is_new": false,
+      "is_bestseller": true,
+      "is_on_sale": true,
+      "is_featured": true,
+      "rating": 4.7,
+      "review_count": 45,
+      "price_original": 1199.99,
+      "price_sale": 659.99,
+      "discount_percent": 45,
+      "currency": "EGP",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colors": [
+        {
+          "name": "Black",
+          "hex": "#000000",
+          "is_default": true
+        }
+      ],
+      "images": [
+        "https://shop.iravin.com/cdn/shop/files/r214898a.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r214898b.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r214898c.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r214898d.jpg"
+      ],
+      "thumbnail": "https://shop.iravin.com/cdn/shop/files/r214898a.jpg",
+      "stock_quantity": 55,
+      "in_stock": true,
+      "created_at": "2025-08-18",
+      "collection": "Best Seller",
+      "subcategories": [
+        "sub-003",
+        "sub-005"
+      ]
+    },
+    {
+      "id": "prod-012",
+      "sku": "R214897",
+      "slug": "r214897-suede-long-sleeve-shirt-army",
+      "name": "Buttons Down Suede Long Sleeve Shirt - Army",
+      "short_description": "Rugged army-toned suede shirt with a full button-down front.",
+      "description": "Command attention with this suede long sleeve shirt in an earthy army green. Full button-down front and a relaxed fit make it perfect for outdoor or casual wear.",
+      "category_id": "cat-001",
+      "subcategory_id": "sub-005",
+      "gender": "men",
+      "type": "Shirts",
+      "tags": [
+        "suede",
+        "casual",
+        "long-sleeve",
+        "men",
+        "army"
+      ],
+      "is_new": false,
+      "is_bestseller": false,
+      "is_on_sale": true,
+      "is_featured": false,
+      "rating": 4.4,
+      "review_count": 20,
+      "price_original": 1199.99,
+      "price_sale": 659.99,
+      "discount_percent": 45,
+      "currency": "EGP",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        {
+          "name": "Army",
+          "hex": "#4B5320",
+          "is_default": true
+        }
+      ],
+      "images": [
+        "https://shop.iravin.com/cdn/shop/files/r214897a_0476bcc9-f738-419a-8c5c-8ae4d3f61069.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r214897b_1a4c8e1a-3432-44c8-84f7-906b7baf29af.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r214897c.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r214897d_0643509f-6bdb-41fc-a2f8-f366a5a8d0c0.jpg"
+      ],
+      "thumbnail": "https://shop.iravin.com/cdn/shop/files/r214897a_0476bcc9-f738-419a-8c5c-8ae4d3f61069.jpg",
+      "stock_quantity": 45,
+      "in_stock": true,
+      "created_at": "2025-08-15",
+      "collection": "Best Seller",
+      "subcategories": [
+        "sub-005"
+      ]
+    },
+    {
+      "id": "prod-013",
+      "sku": "R214896",
+      "slug": "r214896-suede-long-sleeve-shirt-beige",
+      "name": "Buttons Down Suede Long Sleeve Shirt - Beige",
+      "short_description": "Soft suede-finish long sleeve shirt in a warm neutral beige.",
+      "description": "A warm and stylish suede-finish shirt in neutral beige. Full button-down styling with a comfortable regular fit, ideal for layering in autumn and winter.",
+      "category_id": "cat-001",
+      "subcategory_id": "sub-005",
+      "gender": "men",
+      "type": "Shirts",
+      "tags": [
+        "suede",
+        "casual",
+        "long-sleeve",
+        "men",
+        "beige"
+      ],
+      "is_new": false,
+      "is_bestseller": false,
+      "is_on_sale": true,
+      "is_featured": false,
+      "rating": 4.3,
+      "review_count": 16,
+      "price_original": 1199.99,
+      "price_sale": 533.49,
+      "discount_percent": 56,
+      "currency": "EGP",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        {
+          "name": "Beige",
+          "hex": "#E8D9C0",
+          "is_default": true
+        }
+      ],
+      "images": [
+        "https://shop.iravin.com/cdn/shop/files/r214896a_cabe7af2-567b-4642-9be6-d2651f2a25cc.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r214896b_89935d04-ed57-49e9-9bb5-732b5444a404.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r214896c.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r214896d_42760310-04b8-4c5e-9caa-1c39d67fce4f.jpg"
+      ],
+      "thumbnail": "https://shop.iravin.com/cdn/shop/files/r214896a_cabe7af2-567b-4642-9be6-d2651f2a25cc.jpg",
+      "stock_quantity": 35,
+      "in_stock": true,
+      "created_at": "2025-08-10",
+      "collection": "Best Seller",
+      "subcategories": [
+        "sub-005"
+      ]
+    },
+    {
+      "id": "prod-014",
+      "sku": "R213203",
+      "slug": "r213203-buttoned-tartan-shirt-light-blue-black",
+      "name": "Buttoned Long Sleeves Tartan Shirt - Light Blue & Black",
+      "short_description": "A fresh light blue and black tartan shirt with full button front.",
+      "description": "A refreshing take on the classic tartan pattern with a light blue and black color combo. Full button-down front with a regular fit makes it a standout casual option.",
+      "category_id": "cat-001",
+      "subcategory_id": "sub-005",
+      "gender": "men",
+      "type": "Shirts",
+      "tags": [
+        "tartan",
+        "casual",
+        "long-sleeve",
+        "men"
+      ],
+      "is_new": false,
+      "is_bestseller": false,
+      "is_on_sale": true,
+      "is_featured": false,
+      "rating": 4.2,
+      "review_count": 14,
+      "price_original": 999.99,
+      "price_sale": 549.99,
+      "discount_percent": 45,
+      "currency": "EGP",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        {
+          "name": "Light Blue & Black",
+          "hex": "#7EB9D4",
+          "is_default": true
+        }
+      ],
+      "images": [
+        "https://shop.iravin.com/cdn/shop/files/r213203a.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r213203b.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r213203c.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r213203d.jpg"
+      ],
+      "thumbnail": "https://shop.iravin.com/cdn/shop/files/r213203a.jpg",
+      "stock_quantity": 60,
+      "in_stock": true,
+      "created_at": "2025-07-20",
+      "collection": "Best Seller",
+      "subcategories": [
+        "sub-005",
+        "sub-038"
+      ]
+    },
+    {
+      "id": "prod-015",
+      "sku": "R213198",
+      "slug": "r213198-relaxed-fit-flannel-plaid-shirt-earthy-multi",
+      "name": "Relaxed Fit Flannel Plaid Shirt - Earthy Multi",
+      "short_description": "Soft flannel plaid shirt with a relaxed fit in earthy multicolor tones.",
+      "description": "Wrap yourself in comfort with this relaxed-fit flannel plaid shirt featuring warm earthy multicolor tones. Ideal for weekend adventures or casual everyday wear.",
+      "category_id": "cat-001",
+      "subcategory_id": "sub-009",
+      "gender": "men",
+      "type": "Sweatshirts & Hoodies",
+      "tags": [
+        "flannel",
+        "plaid",
+        "casual",
+        "long-sleeve",
+        "men"
+      ],
+      "is_new": false,
+      "is_bestseller": true,
+      "is_on_sale": true,
+      "is_featured": true,
+      "rating": 4.8,
+      "review_count": 53,
+      "price_original": 999.99,
+      "price_sale": 549.99,
+      "discount_percent": 45,
+      "currency": "EGP",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL",
+        "3XL"
+      ],
+      "colors": [
+        {
+          "name": "Earthy Multi",
+          "hex": "#A0785A",
+          "is_default": true
+        }
+      ],
+      "images": [
+        "https://shop.iravin.com/cdn/shop/files/R213198a_c1dee94f-f990-4b4d-9f1b-58303ceb69af.jpg",
+        "https://shop.iravin.com/cdn/shop/files/R213198b_cf976096-8312-48fd-865b-9dc251bc88b9.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r213198c.jpg",
+        "https://shop.iravin.com/cdn/shop/files/R213198e_eade4bfc-0ccf-4e77-a79c-c057ac7a9f0c.jpg"
+      ],
+      "thumbnail": "https://shop.iravin.com/cdn/shop/files/R213198a_c1dee94f-f990-4b4d-9f1b-58303ceb69af.jpg",
+      "stock_quantity": 80,
+      "in_stock": true,
+      "created_at": "2025-07-15",
+      "collection": "Best Seller",
+      "subcategories": [
+        "sub-009",
+        "sub-005"
+      ]
+    },
+    {
+      "id": "prod-016",
+      "sku": "R214293",
+      "slug": "r214293-solid-regular-fit-long-sleeve-shirt-grey",
+      "name": "Solid Regular Fit Long Sleeve Shirt - Grey",
+      "short_description": "Clean and minimalist solid grey long sleeve shirt.",
+      "description": "A wardrobe essential – a solid grey regular fit long sleeve shirt. Pairs with everything from jeans to chinos for a clean, put-together look.",
+      "category_id": "cat-001",
+      "subcategory_id": "sub-003",
+      "gender": "men",
+      "type": "Long Sleeve",
+      "tags": [
+        "solid",
+        "casual",
+        "long-sleeve",
+        "men",
+        "grey"
+      ],
+      "is_new": false,
+      "is_bestseller": false,
+      "is_on_sale": true,
+      "is_featured": false,
+      "rating": 4.0,
+      "review_count": 9,
+      "price_original": 999.99,
+      "price_sale": 549.99,
+      "discount_percent": 45,
+      "currency": "EGP",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        {
+          "name": "Grey",
+          "hex": "#9E9E9E",
+          "is_default": true
+        }
+      ],
+      "images": [
+        "https://shop.iravin.com/cdn/shop/files/r214293a_42aa6928-22fd-4d2f-b61b-e3506edadef3.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r214293b_81b7257f-8777-4d8c-935a-914150946b12.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r214293c.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r214293d_a72ab27c-3974-4810-a810-24db74c3e4e4.jpg"
+      ],
+      "thumbnail": "https://shop.iravin.com/cdn/shop/files/r214293a_42aa6928-22fd-4d2f-b61b-e3506edadef3.jpg",
+      "stock_quantity": 70,
+      "in_stock": true,
+      "created_at": "2025-08-05",
+      "collection": "Just In",
+      "subcategories": [
+        "sub-003",
+        "sub-005"
+      ]
+    },
+    {
+      "id": "prod-017",
+      "sku": "R214291",
+      "slug": "r214291-striped-long-sleeve-shirt-light-blue-white",
+      "name": "Long Sleeves Striped Regular Shirt - Light Blue & White",
+      "short_description": "Classic striped shirt in a fresh light blue and white combo.",
+      "description": "Timeless vertical stripes in light blue and white give this regular fit long sleeve shirt a clean, summery aesthetic. Perfect for smart-casual occasions.",
+      "category_id": "cat-001",
+      "subcategory_id": "sub-005",
+      "gender": "men",
+      "type": "Shirts",
+      "tags": [
+        "striped",
+        "casual",
+        "long-sleeve",
+        "men"
+      ],
+      "is_new": false,
+      "is_bestseller": false,
+      "is_on_sale": true,
+      "is_featured": false,
+      "rating": 4.1,
+      "review_count": 11,
+      "price_original": 999.99,
+      "price_sale": 549.99,
+      "discount_percent": 45,
+      "currency": "EGP",
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "colors": [
+        {
+          "name": "Light Blue & White",
+          "hex": "#AED6F1",
+          "is_default": true
+        }
+      ],
+      "images": [
+        "https://shop.iravin.com/cdn/shop/files/r214291a.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r214291b.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r214291c.jpg",
+        "https://shop.iravin.com/cdn/shop/files/r214291d.jpg"
+      ],
+      "thumbnail": "https://shop.iravin.com/cdn/shop/files/r214291a.jpg",
+      "stock_quantity": 55,
+      "in_stock": true,
+      "created_at": "2025-08-01",
+      "collection": "Just In",
+      "subcategories": [
+        "sub-005"
+      ]
+    }
+  ],
+  "collections": [
+    {
+      "id": "col-001",
+      "slug": "just-in",
+      "name": "Just In",
+      "description": "The newest arrivals — fresh off the rack and ready to wear.",
+      "banner_image": "https://shop.iravin.com/cdn/shop/files/just-in-banner.jpg",
+      "product_ids": [
+        "prod-001",
+        "prod-002",
+        "prod-016",
+        "prod-017"
+      ]
+    },
+    {
+      "id": "col-002",
+      "slug": "best-seller",
+      "name": "Best Seller",
+      "description": "The crowd favourites — our top-rated and most-loved pieces.",
+      "banner_image": "https://shop.iravin.com/cdn/shop/files/bestseller-banner.jpg",
+      "product_ids": [
+        "prod-006",
+        "prod-007",
+        "prod-008",
+        "prod-009",
+        "prod-011",
+        "prod-012",
+        "prod-013",
+        "prod-014",
+        "prod-015"
+      ]
+    },
+    {
+      "id": "col-003",
+      "slug": "winter-collections",
+      "name": "Winter Collections",
+      "description": "Featuring the best winter fashion picks to keep you warm and stylish.",
+      "banner_image": "https://shop.iravin.com/cdn/shop/files/winter-banner.jpg",
+      "product_ids": [
+        "prod-003",
+        "prod-004",
+        "prod-005",
+        "prod-010"
+      ]
+    },
+    {
+      "id": "col-004",
+      "slug": "clearance-men",
+      "name": "Men Clothing Sale",
+      "description": "Up to 60% off on selected men's items. Limited stock — grab yours now!",
+      "banner_image": "https://shop.iravin.com/cdn/shop/files/clearance-banner.jpg",
+      "product_ids": [
+        "prod-006",
+        "prod-009",
+        "prod-010",
+        "prod-013"
+      ]
+    }
+  ],
+  "homepage_banners": [
+    {
+      "id": "banner-001",
+      "title": "Unveil Your Style, Elevate Every Day",
+      "subtitle": "Everyone has a great outfit buried inside — find yours with our collection and style.",
+      "cta_text": "Shop Now",
+      "cta_link": "/collections/just-in",
+      "image_url": "https://shop.iravin.com/cdn/shop/files/eid-offer-dektop.jpg",
+      "mobile_image_url": "https://shop.iravin.com/cdn/shop/files/eid-offer-mobile.jpg",
+      "badge_text": "-45%",
+      "badge_color": "#E05A5A",
+      "is_active": true,
+      "position": 1
+    }
+  ],
+  "trending_tags": [
+    {
+      "id": "tag-001",
+      "label": "Inspiration",
+      "slug": "inspiration"
+    },
+    {
+      "id": "tag-002",
+      "label": "Empowerment",
+      "slug": "empowerment"
+    },
+    {
+      "id": "tag-003",
+      "label": "Leadership",
+      "slug": "leadership"
+    },
+    {
+      "id": "tag-004",
+      "label": "Determination",
+      "slug": "determination"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-001",
+      "product_id": "prod-015",
+      "user_id": "usr-001",
+      "author_name": "Ahmed Karim",
+      "author_avatar": "https://i.pravatar.cc/80?img=11",
+      "rating": 5,
+      "title": "Awesome Product",
+      "body": "I bought it 3 weeks ago and now come back just to say Awesome Product. I really enjoy it. Great quality, the fabric is soft and the fit is just right. Highly recommend!",
+      "likes": 14,
+      "created_at": "2025-11-03",
+      "verified_purchase": true
+    },
+    {
+      "id": "rev-002",
+      "product_id": "prod-015",
+      "user_id": "usr-002",
+      "author_name": "Omar Farouk",
+      "author_avatar": "https://i.pravatar.cc/80?img=14",
+      "rating": 5,
+      "title": "Perfect fit!",
+      "body": "Great shirt. The colors are exactly as shown in the pictures. Delivery was fast and the product was well packaged. Will definitely buy again from Ravin.",
+      "likes": 8,
+      "created_at": "2025-10-28",
+      "verified_purchase": true
+    },
+    {
+      "id": "rev-003",
+      "product_id": "prod-015",
+      "user_id": "usr-003",
+      "author_name": "Youssef Nabil",
+      "author_avatar": "https://i.pravatar.cc/80?img=21",
+      "rating": 4,
+      "title": "Very nice quality",
+      "body": "Good quality shirt, nice fabric. The sizing runs slightly large so I recommend sizing down. Otherwise very happy with my purchase.",
+      "likes": 5,
+      "created_at": "2025-10-20",
+      "verified_purchase": true
+    },
+    {
+      "id": "rev-004",
+      "product_id": "prod-011",
+      "user_id": "usr-004",
+      "author_name": "Khaled Hassan",
+      "author_avatar": "https://i.pravatar.cc/80?img=33",
+      "rating": 5,
+      "title": "Best purchase this season",
+      "body": "The suede texture is premium and the black color doesn't fade after washing. Really impressed by the build quality for this price point.",
+      "likes": 21,
+      "created_at": "2025-11-01",
+      "verified_purchase": true
+    },
+    {
+      "id": "rev-005",
+      "product_id": "prod-011",
+      "user_id": "usr-005",
+      "author_name": "Mostafa Adel",
+      "author_avatar": "https://i.pravatar.cc/80?img=45",
+      "rating": 5,
+      "title": "Worth every penny",
+      "body": "Excellent craftsmanship. The front pockets are nicely sized and functional. Compliments every time I wear it. Fast shipping to Cairo too.",
+      "likes": 17,
+      "created_at": "2025-10-25",
+      "verified_purchase": true
+    },
+    {
+      "id": "rev-006",
+      "product_id": "prod-003",
+      "user_id": "usr-006",
+      "author_name": "Tarek Sameh",
+      "author_avatar": "https://i.pravatar.cc/80?img=52",
+      "rating": 5,
+      "title": "Perfect for winter",
+      "body": "Warm and stylish! The plaid pattern is sharp in person and the pocket is a nice touch. Great gift idea too.",
+      "likes": 10,
+      "created_at": "2025-12-01",
+      "verified_purchase": true
+    }
+  ],
+  "users": [
+    {
+      "id": "usr-001",
+      "name": "Ahmed Karim",
+      "email": "ahmed.karim@example.com",
+      "avatar": "https://i.pravatar.cc/80?img=11",
+      "loyalty_points": 340,
+      "created_at": "2024-03-15"
+    },
+    {
+      "id": "usr-002",
+      "name": "Omar Farouk",
+      "email": "omar.farouk@example.com",
+      "avatar": "https://i.pravatar.cc/80?img=14",
+      "loyalty_points": 210,
+      "created_at": "2024-05-22"
+    },
+    {
+      "id": "usr-003",
+      "name": "Youssef Nabil",
+      "email": "youssef.nabil@example.com",
+      "avatar": "https://i.pravatar.cc/80?img=21",
+      "loyalty_points": 90,
+      "created_at": "2024-07-10"
+    },
+    {
+      "id": "usr-004",
+      "name": "Khaled Hassan",
+      "email": "khaled.hassan@example.com",
+      "avatar": "https://i.pravatar.cc/80?img=33",
+      "loyalty_points": 520,
+      "created_at": "2024-01-08"
+    },
+    {
+      "id": "usr-005",
+      "name": "Mostafa Adel",
+      "email": "mostafa.adel@example.com",
+      "avatar": "https://i.pravatar.cc/80?img=45",
+      "loyalty_points": 155,
+      "created_at": "2024-09-01"
+    },
+    {
+      "id": "usr-006",
+      "name": "Tarek Sameh",
+      "email": "tarek.sameh@example.com",
+      "avatar": "https://i.pravatar.cc/80?img=52",
+      "loyalty_points": 280,
+      "created_at": "2024-02-17"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-001",
+      "user_id": "usr-001",
+      "status": "delivered",
+      "placed_at": "2025-11-01",
+      "delivered_at": "2025-11-03",
+      "items": [
+        {
+          "product_id": "prod-015",
+          "sku": "R213198",
+          "quantity": 1,
+          "size": "L",
+          "color": "Earthy Multi",
+          "price_at_purchase": 549.99
+        }
+      ],
+      "subtotal": 549.99,
+      "shipping_cost": 0,
+      "total": 549.99,
+      "shipping_address": {
+        "city": "Cairo",
+        "district": "Nasr City",
+        "country": "Egypt"
+      }
+    },
+    {
+      "id": "ord-002",
+      "user_id": "usr-004",
+      "status": "delivered",
+      "placed_at": "2025-10-28",
+      "delivered_at": "2025-10-30",
+      "items": [
+        {
+          "product_id": "prod-011",
+          "sku": "R214898",
+          "quantity": 1,
+          "size": "XL",
+          "color": "Black",
+          "price_at_purchase": 659.99
+        },
+        {
+          "product_id": "prod-007",
+          "sku": "R215012",
+          "quantity": 1,
+          "size": "M",
+          "color": "Beige & Black",
+          "price_at_purchase": 549.99
+        }
+      ],
+      "subtotal": 1209.98,
+      "shipping_cost": 0,
+      "total": 1209.98,
+      "shipping_address": {
+        "city": "Cairo",
+        "district": "Maadi",
+        "country": "Egypt"
+      }
+    },
+    {
+      "id": "ord-003",
+      "user_id": "usr-002",
+      "status": "processing",
+      "placed_at": "2026-03-15",
+      "delivered_at": null,
+      "items": [
+        {
+          "product_id": "prod-001",
+          "sku": "R217174",
+          "quantity": 2,
+          "size": "L",
+          "color": "Dark Green",
+          "price_at_purchase": 714.99
+        }
+      ],
+      "subtotal": 1429.98,
+      "shipping_cost": 0,
+      "total": 1429.98,
+      "shipping_address": {
+        "city": "Alexandria",
+        "district": "Sidi Gaber",
+        "country": "Egypt"
+      }
+    }
+  ],
+  "articles": [
+    {
+      "id": "art-001",
+      "slug": "2025-holiday-gift-guide-men",
+      "title": "2025 Holiday Gift Guide for Men",
+      "excerpt": "Looking for the perfect gift for the stylish man in your life? We've rounded up the best Ravin picks for the season.",
+      "category": "SPONSORED",
+      "thumbnail": "https://shop.iravin.com/cdn/shop/files/article-gift-guide-men.jpg",
+      "published_at": "2025-12-01",
+      "read_time_minutes": 5
+    },
+    {
+      "id": "art-002",
+      "slug": "2025-holiday-gift-guide-ella",
+      "title": "2025 Holiday Gift Guide Ella",
+      "excerpt": "Discover curated gift ideas featuring Ravin's latest women's collection for a stylish holiday season.",
+      "category": "SPONSORED",
+      "thumbnail": "https://shop.iravin.com/cdn/shop/files/article-gift-ella.jpg",
+      "published_at": "2025-12-03",
+      "read_time_minutes": 4
+    },
+    {
+      "id": "art-003",
+      "slug": "2025-holiday-gift-guide-prada",
+      "title": "2025 Holiday Gift Guide",
+      "excerpt": "The ultimate Ravin gifting list — from shirts to accessories — for everyone on your list this winter.",
+      "category": "SPONSORED",
+      "thumbnail": "https://shop.iravin.com/cdn/shop/files/article-gift-prada.jpg",
+      "published_at": "2025-12-05",
+      "read_time_minutes": 6
+    }
+  ],
+  "instagram_feed": [
+    {
+      "id": "ig-001",
+      "image_url": "https://shop.iravin.com/cdn/shop/files/ig1.jpg",
+      "link": "https://www.instagram.com/ravinjeans",
+      "caption": "Winter look 🧥❄️"
+    },
+    {
+      "id": "ig-002",
+      "image_url": "https://shop.iravin.com/cdn/shop/files/ig2.jpg",
+      "link": "https://www.instagram.com/ravinjeans",
+      "caption": "Casual Fridays 🔥"
+    },
+    {
+      "id": "ig-003",
+      "image_url": "https://shop.iravin.com/cdn/shop/files/ig3.jpg",
+      "link": "https://www.instagram.com/ravinjeans",
+      "caption": "New arrivals just dropped"
+    },
+    {
+      "id": "ig-004",
+      "image_url": "https://shop.iravin.com/cdn/shop/files/ig4.jpg",
+      "link": "https://www.instagram.com/ravinjeans",
+      "caption": "Your style, your rules ✨"
+    }
+  ],
+  "site_features": [
+    {
+      "id": "feat-001",
+      "icon": "truck",
+      "title": "Free Shipping",
+      "description": "On orders over 2000 EGP"
+    },
+    {
+      "id": "feat-002",
+      "icon": "rotate-ccw",
+      "title": "Easy Returns",
+      "description": "Hassle-free return policy"
+    },
+    {
+      "id": "feat-003",
+      "icon": "credit-card",
+      "title": "Secure Payments",
+      "description": "Visa, Mastercard & Apple Pay"
+    },
+    {
+      "id": "feat-004",
+      "icon": "headphones",
+      "title": "24/7 Support",
+      "description": "Always here to help"
+    }
+  ],
+  "size_chart": {
+    "men_shirts": {
+      "unit": "cm",
+      "sizes": [
+        {
+          "label": "S",
+          "chest": "88-92",
+          "shoulder": "43",
+          "length": "70"
+        },
+        {
+          "label": "M",
+          "chest": "92-96",
+          "shoulder": "44",
+          "length": "72"
+        },
+        {
+          "label": "L",
+          "chest": "96-100",
+          "shoulder": "46",
+          "length": "74"
+        },
+        {
+          "label": "XL",
+          "chest": "100-104",
+          "shoulder": "48",
+          "length": "76"
+        },
+        {
+          "label": "2XL",
+          "chest": "104-108",
+          "shoulder": "50",
+          "length": "78"
+        },
+        {
+          "label": "3XL",
+          "chest": "108-112",
+          "shoulder": "52",
+          "length": "80"
+        }
+      ]
+    }
+  },
+  "promotional_offers": [
+    {
+      "id": "promo-001",
+      "title": "HUNDREDS of New lower prices!",
+      "subtitle": "Hurry. Offer ends in 24hrs",
+      "cta_text": "Shop Now",
+      "cta_link": "/collections/clearance",
+      "badge": "QUICK TO SELL OUT",
+      "image_url": "https://shop.iravin.com/cdn/shop/files/promo-banner.jpg",
+      "is_active": true
+    }
+  ]
+}

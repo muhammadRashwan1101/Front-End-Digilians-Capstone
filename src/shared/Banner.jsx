@@ -1,6 +1,11 @@
 import { XMarkIcon } from "@heroicons/react/20/solid";
+import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { AuthContext } from "../context/AuthContext";
 
 export default function Banner() {
+  const { token } = useContext(AuthContext);
+
   return (
     <div className="relative isolate flex items-center gap-x-6 overflow-hidden bg-gray-800/50 px-6 py-1 after:pointer-events-none after:absolute after:inset-x-0 after:bottom-0 after:h-px after:bg-white/10 sm:px-3.5 sm:before:flex-1">
       <div
@@ -45,12 +50,14 @@ export default function Banner() {
         <p className="text-sm/6 text-gray-100">
           30% off storewide - limited time only
         </p>
-        <a
-          href="#"
-          className="flex-none rounded-full px-3.5 py-1 text-sm font-semibold text-white shadow-xs inset-ring-white/20 hover:bg-white/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white border-bottom-2 border-transparent hover:border-white/30"
-        >
-          Register now <span aria-hidden="true">&rarr;</span>
-        </a>
+        {!token && (
+          <Link
+            to="/register"
+            className="flex-none rounded-full px-3.5 py-1 text-sm font-semibold text-white shadow-xs inset-ring-white/20 hover:bg-white/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white border-bottom-2 border-transparent hover:border-white/30"
+          >
+            Register now <span aria-hidden="true">&rarr;</span>
+          </Link>
+        )}
       </div>
       <div className="flex flex-1 justify-end">
         <button

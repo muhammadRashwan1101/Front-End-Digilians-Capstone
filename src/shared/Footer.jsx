@@ -1,30 +1,23 @@
+import { useLocation } from "react-router-dom";
+
 export default function Footer() {
+  const location = useLocation();
   const links = [
     {
-      title: "Products",
+      title: "Pages",
       items: [
-        { name: "Templates", href: "#" },
-        { name: "Components", href: "#" },
-        { name: "Icons", href: "#" },
-        { name: "UI Kits", href: "#" },
+        { name: "Home", href: "#" },
+        { name: "Products", href: "#" },
+        { name: "Shop", href: "#" },
       ],
     },
     {
-      title: "Company",
+      title: "Info",
       items: [
-        { name: "About Us", href: "#" },
-        { name: "Careers", href: "#" },
-        { name: "Blog", href: "#" },
-        { name: "Contact", href: "#" },
-      ],
-    },
-    {
-      title: "Resources",
-      items: [
-        { name: "Documentation", href: "#" },
-        { name: "Changelog", href: "#" },
+        { name: "Shipping Policy", href: "#" },
+        { name: "Return & Refund", href: "#" },
         { name: "Support", href: "#" },
-        { name: "API Reference", href: "#" },
+        { name: "FAQs", href: "#" },
       ],
     },
   ];
@@ -43,29 +36,20 @@ export default function Footer() {
 
       <footer className="bg-black text-white-800 mt-12 pt-15 px-4 sm:px-6 md:px-8 lg:px-20">
         <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col lg:flex-row gap-16 pb-12">
+          <div className={`flex flex-row gap-30 pb-12`}>
             <div className="flex-1 max-w-full lg:max-w-[400px]">
               <div className="mb-6">
-                <svg
-                  width="27"
-                  height="29"
-                  viewBox="0 0 27 29"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="m7.25 4.11 6 3.366 6-3.367m-12 20.176v-6.721l-6-3.367m24 0-6 3.367v6.72M1.61 7.67l11.64 6.54 11.64-6.54M13.25 27.25V14.197m12 5.18V9.017c0-.454-.124-.9-.358-1.293a2.63 2.63 0 0 0-.975-.947l-9.333-5.18a2.73 2.73 0 0 0-2.667 0l-9.333 5.18a2.63 2.63 0 0 0-.976.947 2.54 2.54 0 0 0-.358 1.293v10.36c0 .454.124.9.358 1.293s.57.72.976.947l9.333 5.18a2.73 2.73 0 0 0 2.667 0l9.333-5.18a2.63 2.63 0 0 0 .975-.947 2.53 2.53 0 0 0 .358-1.293"
-                    stroke="white"
-                    strokeWidth="2.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
+                {location.pathname === "/dashboard" ? (
+                  <h3 className="text-white text-3xl border-e-2 border-lime-400 w-fit pe-4">
+                    VisioCreate.
+                  </h3>
+                ) : (
+                  <h3 className="text-white text-3xl">VisioCreate</h3>
+                )}
+                <p className="text-sm leading-7 text-zinc-500 mb-7 max-w-80">
+                  Clothing & Branding Store
+                </p>
               </div>
-              <p className="text-sm leading-7 text-zinc-500 mb-7 max-w-80">
-                PrebuiltUI provides high-quality, customizable UI components and
-                templates to help teams build faster and ship better products.
-              </p>
               <div className="flex gap-4">
                 <a
                   href="#"
@@ -157,7 +141,7 @@ export default function Footer() {
               </div>
             </div>
 
-            <div className="flex flex-wrap sm:flex-nowrap flex-1 justify-between gap-8 w-full max-w-3xl">
+            <div className="flex flex-wrap sm:flex-nowrap flex-1 justify-between gap-1 w-full max-w-3xl">
               {links.map((link, index) => (
                 <div key={index}>
                   <h3 className="text-base font-medium text-white mb-6">
@@ -178,8 +162,28 @@ export default function Footer() {
                 </div>
               ))}
             </div>
+            <div>
+              <h2 className="font-semibold text-white mb-5">
+                Subscribe to our newsletter
+              </h2>
+              <div className="text-sm text-white space-y-6 max-w-sm">
+                <p>
+                  The latest news, articles, and resources, sent to your inbox
+                  weekly.
+                </p>
+                <div className="flex items-center">
+                  <input
+                    className="rounded-l-md bg-gray-100 text-black outline-none w-full max-w-64 h-11 px-3"
+                    type="email"
+                    placeholder="Enter your email"
+                  />
+                  <button className="bg-linear-to-b from-lime-600 to-emerald-800 cursor-pointer hover:from-lime-700 hover:to-emerald-900 transition px-4 h-11 text-white rounded-r-md">
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
-
           <div className="flex flex-col md:flex-row gap-6 md:gap-16 py-9 max-w-6xl">
             <div className="flex items-start gap-2.5 flex-1">
               <div className="size-8 rounded-lg bg-zinc-100 border border-zinc-200 flex items-center justify-center">
@@ -281,7 +285,7 @@ export default function Footer() {
                   Email
                 </h4>
                 <p className="text-sm text-zinc-500 leading-relaxed">
-                  contact@prebuiltui.com
+                  email@example.com
                 </p>
               </div>
             </div>
@@ -289,7 +293,7 @@ export default function Footer() {
 
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 py-4 border-t border-zinc-300">
             <p className="text-sm text-zinc-500">
-              &copy; {new Date().getFullYear()} PrebuiltUI. All Right Reserved.
+              &copy; {new Date().getFullYear()} VisioCreate. All Right Reserved.
             </p>
             <div className="flex flex-wrap justify-center gap-5 md:gap-9">
               <a

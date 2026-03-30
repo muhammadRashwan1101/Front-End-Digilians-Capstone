@@ -3,7 +3,7 @@ export default function HeroSection() {
     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
       <img
         alt=""
-        src="https://images.unsplash.com/photo-1635650805023-f2529440b5aa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="https://images.pexels.com/photos/9255727/pexels-photo-9255727.jpeg?_gl=1*4nf8bz*_ga*NTM2MTc0NjUwLjE3NzQ2Mjc0MTA.*_ga_8JE65Q40S6*czE3NzQ4NjYxMTgkbzMkZzEkdDE3NzQ4Njc3NDUkajI0JGwwJGgw"
         className="absolute inset-0 -z-10 size-full object-cover object-right md:object-center"
       />
       <div
@@ -15,7 +15,7 @@ export default function HeroSection() {
             clipPath:
               'polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)',
           }}
-          className="aspect-1097/845 w-274.25 bg-linear-to-tr from-[#61b575] to-[#edd795] opacity-20"
+          className="aspect-1097/845 w-274.25 bg-linear-to-tr from-[#61b500] to-[#fdd795] opacity-20"
         />
       </div>
       <div
@@ -34,7 +34,7 @@ export default function HeroSection() {
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Unveil Your Style,</h2>
           <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Elevate <span className="text-lime-300">Every Day</span></h2>
-          <p className="mt-8 text-lg font-medium text-pretty text-white sm:text-xl/8 max-w-[40ch]">
+          <p className="mt-8 text-lg font-medium text-pretty text-white max-w-[40ch]">
             Discover the art of effortless style with our curated collection of fashion essentials. 
             From timeless classics to contemporary trends, we bring you a seamless blend of comfort and sophistication.
             <br/>Elevate your everyday look with our versatile pieces designed to empower your unique style journey.
@@ -42,7 +42,7 @@ export default function HeroSection() {
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
           <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base/7 font-semibold text-white sm:grid-cols-2 md:flex lg:gap-x-10">
-              <a href="#" className="bg-white/20 shadow-md/30 rounded-lg px-4 py-2.5 font-bold text-lime-700 hover:text-lime-950 hover:bg-white/90 width-[4rem] transition duration-300 ease-in-out">
+              <a href="#" className="bg-white shadow-md/30 rounded-lg px-4 py-2.5 font-bold text-lime-700 hover:text-lime-950 hover:bg-white/80 width-[4rem] transition duration-300 ease-in-out">
                 Shop Now
               </a>
           </div>
