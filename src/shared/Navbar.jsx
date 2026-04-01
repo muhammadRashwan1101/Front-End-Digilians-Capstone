@@ -1,46 +1,14 @@
 "use client";
 
-import {
-  Dialog,
-  DialogPanel,
-  Disclosure,
-  DisclosureButton,
-  DisclosurePanel,
-  Popover,
-  PopoverButton,
-  PopoverGroup,
-  PopoverPanel,
-} from "@headlessui/react";
-import {
-  ArrowPathIcon,
-  Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
-import {
-  ChevronDownIcon,
-  PhoneIcon,
-  PlayCircleIcon,
-} from "@heroicons/react/20/solid";
+import { Popover, PopoverButton, PopoverGroup, PopoverPanel } from "@headlessui/react";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
 import CategoryContext from "../context/categoryContext";
 
-
-
-/*************  ✨ Windsurf Command ⭐  *************/
-/**
- * Navbar component for the application.
- * @returns {JSX.Element} The Navbar component.
- * @example
- * <Navbar />
- */
-/*******  8301dd3c-7f91-4ebf-a220-6f1b083f027a  *******/export default function Navbar() {
+export default function Navbar() {
   const { token, logout } = useContext(AuthContext);
   const {categories} = useContext(CategoryContext);
   return (
@@ -75,12 +43,6 @@ import CategoryContext from "../context/categoryContext";
                     key={subcategory.name}
                     className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-white/5"
                   >
-                    {/* <div className="flex size-11 flex-none items-center justify-center rounded-lg bg-gray-700/50 group-hover:bg-gray-700">
-                      <subcategory.icon
-                        aria-hidden="true"
-                        className="size-6 text-gray-400 group-hover:text-white"
-                      />
-                    </div> */}
                     <div className="flex-auto">
                       <a
                         href={subcategory.href}

@@ -1,9 +1,9 @@
-import axios from "axios";
 import { useState, useContext } from "react";
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../context/AuthContext";
 import PageTransition from "../utils/PageTransition";
+import api from "../apis/axios";
 
 export default function Login() {
   const {
@@ -17,7 +17,7 @@ export default function Login() {
 
   const sendData = async (data) => {
     try {
-      const response = await axios.post("http://localhost:3000/login", data);
+      const response = await api.post("login", data);
       login(response.data.token);
       navigate("/");
     } catch (error) {
