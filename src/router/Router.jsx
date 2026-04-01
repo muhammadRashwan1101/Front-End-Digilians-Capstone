@@ -1,38 +1,48 @@
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "../layout/Layout";
-import Home from "../pages/Home";
-import Login from "../pages/Login";
-import SignUp from "../pages/SignUp";
-import Dashboard from "../pages/Dashboard";
-import Addresses from "../components/Dashboard/views/Addresses";
-import AccountDetails from "../components/Dashboard/views/AccountDetails";
-import Orders from "../components/Dashboard/views/Orders";
+import {
+  Home,
+  Login,
+  SignUp,
+  Dashboard,
+  Addresses,
+  AccountDetails,
+  Orders,
+} from "./lazyRoutes";
+import ProtectedRoute from "../utils/ProtectedRoute";
+import ProductCard from "../components/ProductCard";
+import ProductDetails from "../pages/ProductDetails";
 
 export const Router = createBrowserRouter([
-    {
-        path: "",
-        element: <Layout />,
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      { index: true, element: <Home /> },
+      { path: "login", element: <Login /> },
+      { path: "register", element: <SignUp /> },
+      {
+        path: "productDetails",
+        element: <ProductDetails />,
         children: [
-            {
-                element: <Home />,
-                index: true,
-            },
-            {path: "/login", element: <Login />},
-            {path: "/register", element: <SignUp />},
-            {path: "/dashboard", element: <Dashboard />},
-            {
-                path: "/dashboard",
-                element: <Dashboard />,
-                children: [
-                    {
-                        element: <AccountDetails />,
-                        index: true,
-                    },
-                    {path: "addresses", element: <Addresses />},
-                    {path: "orders", element: <Orders />},
-                    // {path: "wishlist", element: <Wishlist />}
-                ]
-            }
-        ]
-    },
-])
+          { index: true, element: <ProductDetails /> },
+          { path: ":id", element: <ProductCard /> },
+        ],
+      },
+      {
+        element: <ProtectedRoute />,
+        children: [
+          {
+            path: "dashboard",
+            element: <Dashboard />,
+            children: [
+              { index: true, element: <AccountDetails /> },
+              { path: "addresses", element: <Addresses /> },
+              { path: "orders", element: <Orders /> },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+]);

@@ -26,7 +26,7 @@ export default function Collections() {
     <>
       <div className="container mx-auto grid grid-cols-2 gap-6 p-10 rounded-lg ">
         {collections.map((collection) => (
-          <div className="relative" key={collection.name}>
+          <div className="relative hover:opacity-80 transition duration-300 ease-in-out cursor-pointer" key={collection.name}>
             <img
               src={collection.image_url}
               alt={collection.name}

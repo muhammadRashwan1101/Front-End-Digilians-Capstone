@@ -4,7 +4,7 @@ export default function AccountSidebar() {
   return (
     <>
       <div className="flex flex-col gap-3 col-span-2 items-center bg-gray-300/30 rounded-xl">
-        <div className="flex flex-col gap-3 mx-auto p-10 px-20">
+        <div className="flex flex-col gap-3 mx-auto p-10 pb-0 px-20">
           <img
             src={`https://i.pravatar.cc/100?img=38`}
             className="w-full rounded-full object-fill"
