@@ -31,7 +31,7 @@ export default function NewProducts() {
             spaceBetween={20}
             slidesPerView={5}
           >
-            {products.map((product) => (
+            {products?.map((product) => (
               <SwiperSlide key={product.id}>
                 <ProductCard product={product} />
               </SwiperSlide>

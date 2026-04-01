@@ -7,7 +7,7 @@ export default function ProductImage({ product, selectedImage }) {
         <div className="w-full">
           <ImageTranstion
             src={selectedImage || product.thumbnail}
-            className="w-full aspect-3/4 object-cover rounded-2xl object-top object-center"
+            className="w-full aspect-3/4 object-cover rounded-2xl object-top object-center "
             selectedImage={selectedImage}
             key={selectedImage || product.thumbnail}
           />

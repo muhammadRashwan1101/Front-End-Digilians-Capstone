@@ -6,11 +6,7 @@ import PageTransition from "../utils/PageTransition";
 import api from "../apis/axios";
 
 export default function Login() {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm();
+  const { register, handleSubmit, formState: { errors } } = useForm();
   const navigate = useNavigate();
   const [error, setError] = useState(null);
   const { login } = useContext(AuthContext);
@@ -37,7 +33,7 @@ export default function Login() {
               alt="login hero image"
               className="w-[35rem] aspect-[3/4] object-cover rounded-2xl"
             />
-            <h2 className="absolute top-5 left-1/2 transform -translate-x-1/2 text-white text-4xl">
+            <h2 className="absolute top-5 left-1/2 transform -translate-x-1/2 text-white font-bold text-4xl">
               VisioCreate
             </h2>
           </div>

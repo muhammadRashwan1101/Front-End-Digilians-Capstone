@@ -6,14 +6,14 @@ import ProductImage from "../components/ProductDetails/ProductImage";
 import ProductDescription from "../components/ProductDetails/ProductDecription";
 import BuyingOptions from "../components/ProductDetails/BuyingOptions";
 import CategoryContext from "../context/categoryContext";
-import { GridLoader } from "react-spinners";
+
 export default function ProductDetails() {
   const [selectedImage, setSelectedImage] = useState(null);
   const { products } = useContext(ProductContext);
   const { categories } = useContext(CategoryContext);
   const location = useLocation();
   const productId = location.pathname.split("/").pop();
-  const product = products.find((p) => p._id === productId);
+  const product = products?.find((p) => p._id === productId);
   const displayImage = selectedImage || product?.thumbnail;
   categories.length === 0
     ? console.log(categories)

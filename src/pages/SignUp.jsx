@@ -41,7 +41,7 @@ export default function SignUp() {
               alt="login hero image"
               className="w-[35rem] aspect-[3/4] object-cover rounded-2xl"
             />
-            <h2 className="absolute top-5 left-1/2 transform -translate-x-1/2 text-white text-4xl">
+            <h2 className="absolute top-5 left-1/2 transform -translate-x-1/2 text-white font-bold text-4xl">
               VisioCreate
             </h2>
           </div>
