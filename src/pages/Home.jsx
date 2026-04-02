@@ -6,7 +6,7 @@ import NewProducts from "../components/Sections/NewProducts";
 import ShopCategories from "../components/Sections/shopCategories";
 import TrendingBrands from "../components/Sections/TrendingBrands";
 import PageTransition from "../utils/PageTransition";
-import ScrollReveal from "../utils/scrollReveal";
+import ScrollReveal from "../utils/ScrollReveal";
 
 export default function Home() {
   return (

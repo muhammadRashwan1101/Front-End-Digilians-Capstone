@@ -4,8 +4,8 @@ import Navbar from "../shared/Navbar";
 import Banner from "../shared/Banner";
 import Footer from "../shared/Footer";
 import TopScroller from "../utils/TopScroller";
-import SimpleFooter from "../shared/simpleFooter";
-import Loader from "../components/Loader";
+import SimpleFooter from "../shared/SimpleFooter";
+import Loader from "../components/Loader";  
 
 export default function Layout() {
   const location = useLocation();
